@@ -1,6 +1,8 @@
 .photo-grid__item {
   width: 22.32vw;
   height: 16.65vw;
+  object-fit: cover;
+  object-position: 50% 50%;
 }
 
 @media (max-width: 1199px) {

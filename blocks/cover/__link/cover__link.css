@@ -22,7 +22,7 @@
 }
 
 .cover__link:hover::before {
-  opacity: 0.5;
+  opacity: 0.8;
   transition: .5s;
 }
 
@@ -30,18 +30,14 @@
   .cover__link {
     width: 100%;
     margin: 0;
-    background: url(../../../images/__background_1280.jpg) center no-repeat;
-    background-size: cover;
   }
 }
-
 
 @media (max-width: 999px) {
   .cover__link {
     width: 100%;
     margin: 0;
-    background: url(../../../images/__background_1024.jpg) center no-repeat;
-    background-size: cover;
+    background: url(../../../images/__background_1024.jpg) center / cover no-repeat;
   }
 }
 
@@ -49,7 +45,6 @@
   .cover__link {
     width: 100%;
     margin: 0;
-    background: url(../../../images/__background_768.jpg) center no-repeat;
-    background-size: cover;
+    background: url(../../../images/__background_768.jpg) center / cover no-repeat;
   }
 }

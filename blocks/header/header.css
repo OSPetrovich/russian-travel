@@ -18,9 +18,6 @@
   .header {
     margin: 0 16px;
     padding: 16px 0 48px 0;
-    display: grid;
     grid-template-columns: auto 22px 20px;
-    grid-template-rows: auto;
-    grid-gap: 18px;
   }
 }

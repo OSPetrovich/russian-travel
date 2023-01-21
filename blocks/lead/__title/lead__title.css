@@ -2,7 +2,7 @@
   box-sizing: border-box;
   border: 0px;
   max-width: 720px;
-  min-height: 200px;
+  min-height: min-content;
   margin: 0 auto;
   font-size: 96px;
   font-weight: 900;
@@ -14,7 +14,7 @@
 
   .lead__title {
     max-width: 288px;
-    min-height: 88px;
+    min-height: min-content;
     font-size: 40px;
     line-height: 44px;
   }
