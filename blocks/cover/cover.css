@@ -1,0 +1,33 @@
+.cover {
+    display: block;
+    margin: 92px 0 0 0;
+    padding: 0;
+    border: 0;
+}
+
+@media (max-width: 1199px) {
+    .cover {
+        display: block;
+        margin: 92px 0 0 0;
+        padding: 0;
+        border: 0;
+    }
+}
+
+@media (max-width: 999px) {
+    .cover {
+        display: block;
+        margin: 90px 0 0 0;
+        padding: 0;
+        border: 0;
+    }
+}
+
+@media (max-width: 749px) {
+    .cover {
+        display: block;
+        margin: 66px 0 0 0;
+        padding: 0;
+        border: 0;
+    }
+}

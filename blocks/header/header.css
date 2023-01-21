@@ -1,0 +1,26 @@
+.header {
+  min-height: 52px;
+  margin: 0 48px;
+  padding: 28px 0 56px 0;
+  display: grid;
+  grid-template-columns: auto 29px 29px;
+  grid-template-rows: auto;
+  grid-gap: 18px;
+}
+
+@media (max-width: 799px) {
+  .header {
+    margin: 0 24px;
+  }
+}
+
+@media (max-width: 749px) {
+  .header {
+    margin: 0 16px;
+    padding: 16px 0 48px 0;
+    display: grid;
+    grid-template-columns: auto 22px 20px;
+    grid-template-rows: auto;
+    grid-gap: 18px;
+  }
+}

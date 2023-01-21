@@ -1,0 +1,82 @@
+.photo-grid {  
+  display: grid;
+  margin: 92px auto 0;
+  padding-bottom: 12px;
+  width: 92.5vw;
+  height: 51.5vw;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1vw 1vw;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . . ."
+    ". . . ."
+    ". . . .";
+}
+
+@media (max-width: 1199px) {
+  .photo-grid {  
+    display: grid;
+    margin: 92px auto 0;
+    padding-bottom: 12px;
+    width: 90.63vw;
+    height: 92vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 1vw 1vw;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . ."
+      ". . ."
+      ". . ."
+      ". . .";
+  }
+}
+
+@media (max-width: 999px) {
+  .photo-grid {  
+    display: grid;
+    margin: 88px auto 0;
+    padding-bottom: 15px;
+    width: 93.75vw;
+    height: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 2.1vw 2.1vw;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". ."
+      ". ."
+      ". ."
+      ". ."
+      ". ."
+      ". .";
+  }
+}
+
+@media (max-width: 749px) {
+  .photo-grid {  
+    display: grid;
+    margin: 64px auto 0;
+    padding-bottom: 14px;
+    width: 90vw;
+    height: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 3.75vw 3.75vw;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "."
+      "."
+      "."
+      "."
+      "."
+      "."
+      "."
+      "."
+      "."
+      "."
+      "."
+      ".";
+  }
+}

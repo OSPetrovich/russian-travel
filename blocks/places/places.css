@@ -1,0 +1,33 @@
+.places {  
+  display: flex;
+  flex-direction: column;
+  width: 77vw;
+  margin: 0 auto 0;
+}
+
+@media (max-width: 1199px) {
+  .places {  
+    display: flex;
+    flex-direction: column;
+    width: 90.62vw;
+    margin: 0 auto 0;
+  }
+}
+
+@media (max-width: 999px) {
+  .places {  
+    display: flex;
+    flex-direction: column;
+    width: 93.75vw;
+    margin: 0 auto 0;
+  }
+}
+
+@media (max-width: 749px) {
+  .places {  
+    display: flex;
+    flex-direction: column;
+    width: unset;
+    margin: 0;
+  }
+}

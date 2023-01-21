@@ -1,0 +1,29 @@
+.place__image {
+  grid-area: place__image;
+  min-width: 35.94vw;
+  height: 35.94vw;
+}
+
+@media (max-width: 1199px) {
+  .place__image {
+    width: 44.92vw;
+    height: 44.92vw;
+  }
+}
+
+@media (max-width: 999px) {
+  .place__image {
+    width: 44.27vw;
+    height: 44.27vw;
+  }
+}
+
+@media (max-width: 749px) {
+  .place__image {
+    background-size: cover;
+    background-position: center;
+    min-width: 100%;
+    height: auto;
+    margin: 0;
+  }
+}

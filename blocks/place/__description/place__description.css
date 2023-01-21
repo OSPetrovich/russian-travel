@@ -1,0 +1,24 @@
+.place__description {
+  grid-area: place__description;
+  width: 37.81vw;
+  height: min-content;
+}
+
+@media (max-width: 1199px) {
+  .place__description {
+    width: 44.53vw;
+  }
+}
+
+@media (max-width: 999px) {
+  .place__description {
+    width: 45.83vw;
+  }
+}
+
+@media (max-width: 749px) {
+  .place__description {
+    width: unset;
+    margin: 32px 16px 0px;
+  }
+}
