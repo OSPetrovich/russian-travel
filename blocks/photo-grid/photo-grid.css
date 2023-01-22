@@ -1,12 +1,12 @@
 .photo-grid {  
   display: grid;
   margin: 92px auto 0;
-  padding-bottom: 12px;
+  padding-bottom: 19px;
   width: 92.5vw;
   height: 51.5vw;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 1vw 1vw;
+  gap: 1.2vw 0.98vw;
   grid-auto-flow: row;
   grid-template-areas:
     ". . . ."

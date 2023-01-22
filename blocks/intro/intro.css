@@ -4,7 +4,7 @@
   width: 77vw;
   margin: 8px auto 0px;
   display: grid;
-  grid-template-columns: 70% 30%;
+  grid-template-columns: 690px 1fr;
   grid-template-rows: auto auto auto;
   gap: 0px 0px;
   grid-auto-flow: row;
