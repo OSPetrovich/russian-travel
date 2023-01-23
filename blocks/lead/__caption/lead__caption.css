@@ -1,6 +1,6 @@
 .lead__caption {
   display: block;
-  max-width: 76.88vw;
+  max-width: 75.5vw;
   min-height: fit-content;
   margin: 8px auto 92px;
   font-weight: 400;
@@ -12,7 +12,7 @@
 
 @media (max-width: 1199px) {
   .lead__caption {
-    max-width: 90.6vw;
+    max-width: 90.6%;
   }
 }
 

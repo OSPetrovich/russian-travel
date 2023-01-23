@@ -1,7 +1,7 @@
 .places {  
-  display: flex;
+  display: flexbox;
   flex-direction: column;
-  width: 77vw;
+  max-width: 75.38vw;
   margin: 0 auto 0;
 }
 
@@ -9,8 +9,8 @@
   .places {  
     display: flex;
     flex-direction: column;
-    width: 90.62vw;
-    margin: 0 auto 0;
+    min-width: 88.38vw;
+    margin: 13.65px auto 0;
   }
 }
 
@@ -18,8 +18,8 @@
   .places {  
     display: flex;
     flex-direction: column;
-    width: 93.75vw;
-    margin: 0 auto 0;
+    min-width: 91.53vw;
+    margin: 4px auto 0;
   }
 }
 

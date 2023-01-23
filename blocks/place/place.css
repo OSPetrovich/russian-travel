@@ -1,8 +1,9 @@
 .place {
-  margin-top: 80px;
+  margin-top: 80.5px;
   display: grid;
-  grid-template-columns: 36vw 1fr;
-  grid-template-rows: 1fr 36vw;
+  max-width: 100%;
+  grid-template-columns: 35.2vw 1fr;
+  grid-template-rows: 1fr 35.2vw;
   gap: 48px 40px;
   grid-auto-flow: row;
   grid-template-areas:
@@ -12,16 +13,18 @@
 
 @media (max-width: 1199px) {
   .place {
-    grid-template-columns: 42.97vw 1fr;
+    margin-top: 79.5px;
+    max-width: 100%;
+    grid-template-columns: 42vw 1fr;
     grid-template-rows: auto auto;
-    gap: 48px 32px;
+    gap: 48.1px 32px;
   }
 }
 
 @media (max-width: 999px) {
   .place {
-    margin-top: 73px;
-    grid-template-columns: 44.27vw 1fr;
+    margin-top: 71.5px;
+    grid-template-columns: 43.221vw 1fr;
     grid-template-rows: auto auto;
     gap: 48px 28px;
   }

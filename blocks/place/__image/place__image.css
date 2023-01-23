@@ -1,27 +1,29 @@
 .place__image {
   grid-area: place__image;
-  min-width: 35.94vw;
-  height: 35.94vw;
+  object-fit: cover;
+  object-position: 50% 50%;
+  min-width: 35.2vw;
+  height: 35.2vw;
 }
 
 @media (max-width: 1199px) {
   .place__image {
-    width: 44.92vw;
-    height: 44.92vw;
+    width: 42vw;
+    height: 42vw;
   }
 }
 
 @media (max-width: 999px) {
   .place__image {
-    width: 44.27vw;
-    height: 44.27vw;
+    width: 43.221vw;
+    height: 43.221vw;
   }
 }
 
 @media (max-width: 749px) {
   .place__image {
-    background-size: cover;
-    background-position: center;
+    /*background-size: cover;
+    background-position: center;*/
     min-width: 100%;
     height: auto;
     margin: 0;

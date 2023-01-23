@@ -2,8 +2,8 @@
   text-decoration: none;
   color: #ffffff;
   position: relative;
-  width: 92.5vw;
-  height: 57.82vw;
+  width: 92.5%;
+  height: 56.7vw;
   margin: 0 auto;
   background: url(../../../images/__background_1280.jpg) center no-repeat;
   background-size: cover;
@@ -30,6 +30,7 @@
   .cover__link {
     width: 100%;
     margin: 0;
+    height: 60.6vw;
   }
 }
 

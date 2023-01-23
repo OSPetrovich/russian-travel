@@ -1,7 +1,7 @@
 .intro {
   box-sizing: border-box;
   border: 0px;
-  width: 77vw;
+  width: 75.4vw;
   margin: 8px auto 0px;
   display: grid;
   grid-template-columns: 690px 1fr;
@@ -16,14 +16,14 @@
 
 @media (max-width: 1199px) {
   .intro {
-    width: 90.62vw;
+    width: 90.62%;
     grid-template-columns: 74.35% 25.65%;
   }
 }
 
 @media (max-width: 999px) {
   .intro {
-    width: 93.75vw;
+    width: 93.75%;
     grid-template-columns: auto;
     grid-template-areas:
       "intro__title"

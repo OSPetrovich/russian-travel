@@ -1,14 +1,14 @@
 .lead__image {
   display: block;
-  max-width: 76.88vw;
-  height: 48.05vw;
+  max-width: 75.5vw;
+  height: 47.1vw;
   margin: 0 auto;
 }
 
 @media (max-width: 1199px) {
   .lead__image {
-    max-width: 90.6vw;
-    height: 56.64vw;
+    max-width: 90.6%;
+    height: 55.3vw;
   }
 }
 

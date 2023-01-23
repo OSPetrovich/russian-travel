@@ -8,6 +8,12 @@
   grid-gap: 18px;
 }
 
+@media (max-width: 1199px) {
+  .header {
+  padding: 28px 0 49px 0;
+  }
+}
+
 @media (max-width: 799px) {
   .header {
     margin: 0 24px;
@@ -17,7 +23,7 @@
 @media (max-width: 749px) {
   .header {
     margin: 0 16px;
-    padding: 16px 0 48px 0;
+    padding: 7px 0 48px 0;
     grid-template-columns: auto 22px 20px;
   }
 }

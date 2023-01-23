@@ -1,12 +1,11 @@
 .place__description {
   grid-area: place__description;
-  width: 37.81vw;
   height: min-content;
 }
 
 @media (max-width: 1199px) {
   .place__description {
-    width: 44.53vw;
+    width: 43.43vw;
   }
 }
 
