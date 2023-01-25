@@ -5,19 +5,13 @@
     border: 0;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 800px) {
     .cover {
-        margin: 92px 0 0 0;
+        margin: 93px 0 0 0;
     }
 }
 
-@media (max-width: 999px) {
-    .cover {
-        margin: 90px 0 0 0;
-    }
-}
-
-@media (max-width: 749px) {
+@media (max-width: 780px) {
     .cover {
         margin: 66px 0 0 0;
     }

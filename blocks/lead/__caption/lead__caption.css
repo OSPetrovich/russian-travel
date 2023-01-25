@@ -1,7 +1,9 @@
 .lead__caption {
   display: block;
-  max-width: 75.5vw;
-  min-height: fit-content;
+  text-align: left;
+  box-sizing: border-box;
+  width: 90.6%;
+  max-width: 984px;
   margin: 8px auto 92px;
   font-weight: 400;
   font-size: 10px;
@@ -10,20 +12,24 @@
   text-transform: uppercase;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1024px) {
   .lead__caption {
-    max-width: 90.6%;
+    max-width: 928px;
+    min-width: 672px;
   }
 }
 
-@media (max-width: 999px) {
+@media (max-width: 800px) {
   .lead__caption {
-    margin: 8px 0 88px 24px;
+    min-width: unset;
+    width: 100%;
+    margin: 8px 0 0 0;
+    padding-left: 24px;
   }
 }
 
-@media (max-width: 749px) {
+@media (max-width: 350px) {
   .lead__caption {
-    margin: 8px 0 64px 16px;
+    padding-left: 16px;
   }
 }

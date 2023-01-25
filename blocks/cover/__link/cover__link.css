@@ -2,8 +2,10 @@
   text-decoration: none;
   color: #ffffff;
   position: relative;
-  width: 92.5%;
-  height: 56.7vw;
+  width: 92.6%;
+  max-width: 1184px;
+  height: 56.5vw;
+  max-height: 740px;
   margin: 0 auto;
   background: url(../../../images/__background_1280.jpg) center no-repeat;
   background-size: cover;
@@ -15,18 +17,18 @@
 .cover__link::before {
   content: "";
   background-color: #2A2C2F;
-  opacity: 0.3;
+  opacity: .3;
   position: absolute;
   min-width: 100%;
   min-height: 100%;
 }
 
 .cover__link:hover::before {
-  opacity: 0.8;
+  opacity: .8;
   transition: .5s;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1200px) {
   .cover__link {
     width: 100%;
     margin: 0;
@@ -34,18 +36,14 @@
   }
 }
 
-@media (max-width: 999px) {
+@media (max-width: 1000px) {
   .cover__link {
-    width: 100%;
-    margin: 0;
     background: url(../../../images/__background_1024.jpg) center / cover no-repeat;
   }
 }
 
-@media (max-width: 749px) {
+@media (max-width: 750px) {
   .cover__link {
-    width: 100%;
-    margin: 0;
     background: url(../../../images/__background_768.jpg) center / cover no-repeat;
   }
 }

@@ -1,12 +1,11 @@
 .intro {
-  box-sizing: border-box;
-  border: 0px;
-  width: 75.4vw;
+  width: 90.6%;
+  max-width: 984px;
   margin: 8px auto 0px;
   display: grid;
   grid-template-columns: 690px 1fr;
   grid-template-rows: auto auto auto;
-  gap: 0px 0px;
+  gap: 0;
   grid-auto-flow: row;
   grid-template-areas:
     "intro__title ."
@@ -14,16 +13,20 @@
     "intro__list .";
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1200px) {
   .intro {
-    width: 90.62%;
-    grid-template-columns: 74.35% 25.65%;
+    width: 90.625%;
+    min-width: 720px;
+    max-width: 928px;
   }
 }
 
-@media (max-width: 999px) {
+@media (max-width: 860px) {
   .intro {
+    margin: 8px 24px 0px;
     width: 93.75%;
+    max-width: 720px;
+    min-width: 0%;
     grid-template-columns: auto;
     grid-template-areas:
       "intro__title"
@@ -32,9 +35,16 @@
   }
 }
 
-@media (max-width: 749px) {
+@media (max-width: 800px) {
   .intro {
-    width: 90vw;
+    margin: 87px 24px 0px;
+  }
+}
+
+@media (max-width: 450px) {
+  .intro {
+    margin: 64px 16px 0px;
+    max-width: 90%;
     grid-template-columns: auto;
     grid-template-areas:
       "intro__title"

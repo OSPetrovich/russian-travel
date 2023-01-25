@@ -1,6 +1,4 @@
 .lead__subtitle {
-  box-sizing: border-box;
-  border: 0px;
   max-width: 640px;
   min-height: min-content;
   margin: 32px auto 64px;
@@ -10,13 +8,13 @@
   text-align: center;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1050px) {
   .lead__subtitle {
-    margin: 32px auto 55px;
+    margin: 32px auto 56px;
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 767px) {
   .lead__subtitle {
     max-width: 288px;
     min-height: min-content;
