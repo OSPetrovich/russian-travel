@@ -1,5 +1,33 @@
 .photo-grid__item {
-  width: 100%;
+  display: block;
   object-fit: cover;
   object-position: 50% 50%;
+  width: 100%;
+  aspect-ratio: 284 / 213;
+  max-width: 284px;
+  max-height: 213px;
+}
+
+@media (max-width: 1200px) {
+  .photo-grid__item {
+    max-width: 300px;
+    max-height: 225px;
+    aspect-ratio: 300 / 225;
+  }
+}
+
+@media (max-width: 800px) {
+  .photo-grid__item {
+    max-width: 352px;
+    max-height: 264px;
+    aspect-ratio: 352 / 264;
+  }
+}
+
+@media (max-width: 450px) {
+  .photo-grid__item {
+    max-width: 418px;
+    max-height: 342px;
+    aspect-ratio: 288 / 216;
+  }
 }

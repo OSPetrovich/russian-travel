@@ -45,10 +45,5 @@
   .intro {
     margin: 64px 16px 0px;
     max-width: 90%;
-    grid-template-columns: auto;
-    grid-template-areas:
-      "intro__title"
-      "intro__text"
-      "intro__list";
   }
 }

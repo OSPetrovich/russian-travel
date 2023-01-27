@@ -15,7 +15,6 @@
   .place {
     margin-top: 79.5px;
     grid-template-columns: 47.41% 1fr;
-    grid-template-rows: auto auto;
     gap: 49px 32px;
   }
 }
@@ -24,7 +23,6 @@
   .place {
     margin-top: 74px;
     grid-template-columns: 47.22% 1fr;
-    grid-template-rows: auto auto;
     gap: 45px 28px;
   }
 }
