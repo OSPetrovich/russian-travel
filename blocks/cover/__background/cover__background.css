@@ -18,8 +18,8 @@
   background-color: #2A2C2F;
   opacity: .3;
   position: absolute;
-  left: auto;
-  top: auto;
+  left: 0;
+  top: 0;
   min-width: 100%;
   min-height: 100%;
 }
@@ -33,7 +33,6 @@
   .cover__background {
     width: 100%;
     margin: 0;
-    /*height: 60.6vw;*/
     aspect-ratio: 1024 / 640;
   }
 }
