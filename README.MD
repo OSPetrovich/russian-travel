@@ -7,4 +7,4 @@
 
 Работа выкладывается в репозиторий:
 
-https://github.com/OSPetrovich/russian-travel
+https://ospetrovich.github.io/russian-travel/index.html
