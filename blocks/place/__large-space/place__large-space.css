@@ -1,0 +1,9 @@
+.place__large-space {
+    letter-spacing: normal;
+  }
+
+@media (max-width: 450px) {
+    .place__large-space {
+        letter-spacing: 70px;
+  }
+}  
